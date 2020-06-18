@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    position: absolute;
+    color: #000;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.second0-2 div:nth-child(1) {
+    left: 200px;
+    top: 200px;
+}

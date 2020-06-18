@@ -58,6 +58,8 @@ body:hover > .a{
     top: 190px;
 }
 
+
+
 .b {
     position: absolute;
     top: 50%;
@@ -70,7 +72,7 @@ body:hover > .a{
     font-size: 200px;
     left: 200px;
     transition: all 0.2s;
-    transition-delay: 3s;
+    transition-delay: 2.5s;
     visibility: hidden;
 }
 
@@ -80,30 +82,29 @@ body:hover .b span:nth-child(1) {
 }
 body:hover .b span:nth-child(2) {
     visibility: visible;
-    transition-delay: 3.2s;
+    transition-delay: 2.7s;
     left: 0;
 }
 body:hover .b span:nth-child(3) {
     visibility: visible;
-    transition-delay: 3.4s;
+    transition-delay: 2.9s;
     left: 0;
 }
 body:hover .b span:nth-child(4) {
     visibility: visible;
-    transition-delay: 3.6s;
+    transition-delay: 3.1s;
     left: 0;
 }
 body:hover .b span:nth-child(5) {
     visibility: visible;
-    transition-delay: 3.8s;
+    transition-delay: 3.3s;
     left: 0;
 }
 
-body:hover > .b{
+body:hover > .b {
     transition: all 1s;
-    transition-delay: 4s;
+    transition-delay: 3.5s;
     transform: rotate(90deg);
     left: -130px;
     top: 260px;
 }
-
