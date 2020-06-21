@@ -6,10 +6,24 @@ window.onload = ()=>{
     let a2 = document.querySelector(".second0-2 > #a2");
     let a3 = document.querySelector(".second0-2 > #a3");
     let a4 = document.querySelector(".second0-2 > #a4");
+
+    let second3_8 = document.querySelector(".second3-8");
+
+    let b1 = document.querySelector(".second3-8 > #b1");
+    let b2 = document.querySelector(".second3-8 > #b2");
+    let b3 = document.querySelector(".second3-8 > #b3");
+    let b4 = document.querySelector(".second3-8 > #b4");
+    let b5 = document.querySelector(".second3-8 > #b5");
     
     function s0_2(a, b) {
         a.style.visibility = "visible";
         a.style.top = b;
+        a.style.color = "#000";
+        a.style.textShadow = "none";
+    }
+
+    function s3_8(a, b) {
+        a.style.left = b;
         a.style.color = "#000";
         a.style.textShadow = "none";
     }
@@ -33,5 +47,13 @@ window.onload = ()=>{
             a4.style.transition = "all 1s";
             a4.style.left = "-1000px"
         }, 3000)
+        setTimeout(()=>{
+            second0_2.style.display = "none";
+        }, 4000)
+        s3_8(b1, "120px");
+        s3_8(b2, "400px");
+        s3_8(b3, "950px");
+        s3_8(b4, "1150px");
+        s3_8(b5, "1470px");
     })
 }
