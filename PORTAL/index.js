@@ -1,4 +1,5 @@
 window.onload = ()=>{
+    let audio = new Audio('music.mp3');
     let main = document.querySelector("#main");
     let second0_2 = document.querySelector(".second0-2");
 
@@ -15,6 +16,12 @@ window.onload = ()=>{
     let b4 = document.querySelector(".second3-8 > #b4");
     let b5 = document.querySelector(".second3-8 > #b5");
     
+    let c1 = document.querySelector(".second9-15 > #c1");
+    let c2 = document.querySelector(".second9-15 > #c2");
+    let c3 = document.querySelector(".second9-15 > #c3");
+    let c4 = document.querySelector(".second9-15 > #c4");
+    let c5 = document.querySelector(".second9-15 > #c5");
+
     function s0_2(a, b) {
         a.style.visibility = "visible";
         a.style.top = b;
@@ -29,6 +36,9 @@ window.onload = ()=>{
     }
 
     main.addEventListener("click", ()=>{
+        audio.volume = 0.5;
+        audio.play();
+        document.body.requestFullscreen();
         //This
         s0_2(a1, "350px");
         //was
@@ -55,5 +65,23 @@ window.onload = ()=>{
         s3_8(b3, "950px");
         s3_8(b4, "1150px");
         s3_8(b5, "1470px");
+        setTimeout(()=>{
+            b1.style.transition = "all 1s";
+            b1.style.top = "-500px";
+            b2.style.transition = "all 1s";
+            b2.style.top = "-500px";
+            b3.style.transition = "all 1s";
+            b3.style.top = "-500px";
+            b4.style.transition = "all 1s";
+            b4.style.top = "-500px";
+            b5.style.transition = "all 1s";
+            b5.style.top = "-500px";
+        }, 8000)
+        setTimeout(()=>{
+            second3_8.style.display = "none";
+        }, 8300)
+        c1.style.top = "160px";
+        c1.style.color = "#000";
+        c1.style.textShadow = "none";
     })
 }

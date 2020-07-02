@@ -75,7 +75,7 @@ div {
 }
 
 .second3-8 > div {
-    transition: all 0.2s;
+    transition: all 0.6s;
     color: transparent;
     text-shadow: 0 0 10px #000000;
     font-size: 120px;
@@ -84,31 +84,49 @@ div {
 .second3-8 div:nth-child(1) {
     left: 2040px;
     top: 170px;
-    transition-delay: 5s;
+    transition-delay: 4s;
 }
 .second3-8 div:nth-child(2) {
     left: 2320px;
     top: 170px;
-    transition-delay: 5.2s;
+    transition-delay: 4.3s;
 }
 .second3-8 div:nth-child(3) {
     left: 2870px;    
     top: 170px;
-    transition-delay: 5.4s;
+    transition-delay: 4.7s;
 }
 .second3-8 div:nth-child(4) {
     left: 3070px;
     top: 170px;
-    transition-delay: 5.6s;
+    transition-delay: 4.9s;
 }
 .second3-8 div:nth-child(5) {
     left: 3390px;
     top: 170px;
-    transition-delay: 5.8s;
+    transition-delay: 5.2s;
 }
 .second3-8 div:nth-child(6) {
     left: 65px;
     top: 500px;
-    transition-delay: 6s;
     font-size: 250px;
+    visibility: hidden;
+}
+
+.second9-15 {
+    width: 100%;
+    height: 100%;
+    transition: all 4.5s;
+}
+
+.second9-15 > div {
+    transition: all 0.3s;
+    color: transparent;
+    text-shadow: 0 0 10px #000000;
+}
+
+.second9-15 div:nth-child(1) {
+    top: 940px;
+    font-size: 600px;
+    transition-delay: 9s;
 }
